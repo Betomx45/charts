@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+mat-toolbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+button {
+    outline: none;
+    border: 0;
+    background: transparent;
+}
+
+
+mat-toolbar {
+    background: #222939;
+}
+
+::ng-deep {
+    .mat-menu-content {
+    width: 160px;
+    }
+}
+.btn-toogle{
+    color: #f7f7f7;
+}
+.header-icons{
+    width: 100px;
+    display: flex;
+    justify-content:space-between;
+}
+.navbar{
+    width: 100%;
+}
+  

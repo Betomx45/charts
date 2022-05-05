@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="border m-4 position-relative">
+        <div class="chart-text">
+            <h1>{{title}}</h1>
+        </div>
+        <div class="button mt-1">
+            <button class="btn btn-outline-secondary btn-sm" (click)="update($event)">{{btnUpdate}}</button>
+        </div>
+        <canvas id="canvas" width="500" height="200">
+            {{chart}}
+        </canvas>
+        <div class="chart-values-time">
+            <h2>{{time}}</h2>
+        </div>
+    </div>
+</div>

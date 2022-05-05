@@ -1,0 +1,29 @@
+.button{
+    text-align: right;
+    padding-right: 7px;
+}
+.label-values{
+    width: 500px;
+    display: flex;
+    justify-content:space-around;
+}
+
+.chart-text{
+    text-align: center;
+    font-family: Arial;
+    font-weight: 500;
+    margin-top: 3px;
+}
+
+.chart-values{
+    width: 200px;
+    position: relative;
+    text-align:center;
+    top: 250px;
+    font-family: Arial;
+    font-weight: 300;
+}
+
+.chart-values-time{
+    text-align: center;
+}

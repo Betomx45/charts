@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content{
+    //background-image: url(../src/assets/img/fondo.jpg);
+    backface-visibility: visible;
+    min-height: 100vh;
+    background-size: cover;
+    height: 100vh;
+}
